@@ -1,0 +1,566 @@
+* {
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+.container {
+    width: 100wh;
+    background-color: black !important;
+    padding: 40px;
+    color:white;
+}
+
+.container>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #3dbb2c;
+    cursor: pointer;
+}
+.nav{
+    transition: all 1s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%) 0s;
+    color: #3dbb2c;
+    text-decoration: none;
+
+}
+.nav:hover{
+    border: 2px double darkcyan;
+    padding: 6px;
+    box-shadow: 5px 5px 5px 0px green;
+}
+.portfolio {
+    font-size: 30px;
+    color: #3dbb2c;
+    
+}
+
+.frontend{
+    color: #3dbb2c;
+}
+
+.portfolio>span {
+    font-size: 40px;
+}
+
+.iamwebdeveloper {
+    width: 50%;
+    font-size: 22px;
+}
+
+.education {
+    font-size: 15px;
+}
+
+.profile {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1 {
+    height: 320px;
+    width: 320px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle2 {
+    height: 225px;
+    width: 225px;
+    background-color: rgb(46, 179, 46);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle3 {
+    height: 140px;
+    width: 140px;
+    background-color: rgb(127, 228, 127);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilediv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.image1 {
+    height: 284px;
+    margin-bottom: 22px;
+}
+
+.about {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 45px;
+    font-size: 40px;
+
+}
+
+.linecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.line1 {
+    height: 5px;
+    width: 42px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.line2 {
+    height: 5px;
+    width: 25px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.line3 {
+    height: 5px;
+    width: 14px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.line4 {
+    height: 5px;
+    width: 9px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.line5 {
+    height: 5px;
+    width: 4px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+
+
+
+.top {
+    height: 8px;
+    width: 112px;
+    background-color: green;
+    position: relative;
+    top: -18px;
+    left: -23px;
+}
+
+.imagecontainer {
+    position: relative;
+    margin-left: 50px;
+}
+
+.left {
+    height: 112px;
+    width: 8px;
+    background-color: green;
+    position: absolute;
+    right: 268px;
+    top: -18px;
+}
+
+.image2 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: -13px;
+    left: -13px;
+}
+
+.aboutdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 74px;
+}
+
+.name {
+    font-size: 57px;
+    color: transparent;
+    -webkit-text-stroke: 1px #3dbb2c;
+}
+
+.namecontainer {
+    position: relative;
+}
+
+.small-text {
+    position: absolute;
+    top: 14px;
+    left: 124px;
+    font-size: 30px;
+    color: white;
+}
+
+.education2 {
+    font-size: 15px;
+    padding: 15px 0px 15px 0px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imagediv {
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    position: relative;
+}
+
+.skilsdiv1,
+.skilsdiv2 {
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.skilscountimage {
+    width: 80%;
+    margin-left: 123px;
+    /* position: absolute; */
+}
+p{
+    font-size: 14px
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skilscontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    position: relative;
+}
+
+.skilscountimage2 {
+    width: 80%;
+    margin-left: -66px;
+}
+
+.skilscountimage5,
+.skilscountimage6 {
+    margin-top: -122px;
+}
+
+.skilsptag5 {
+    width: 67%;
+}
+
+
+.skilsptag6 {
+    width: 67%;
+    margin-left: 100px;
+}
+
+.skilscountimage6 {
+    margin-left: -101px;
+}
+
+.skilscountimage5 {
+    margin-left: 138px;
+}
+
+.skilcount1,
+.skilcount2 {
+    margin-bottom: -56px;
+}
+
+.skils {
+    position: absolute;
+    right: 530px;
+    font-size: 80px;
+    top: 207px;
+    color: green;
+}
+
+.link {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectname,
+.eductionname {
+    text-align: center;
+    font-size: 40px;
+    color:green;
+}
+
+.projectimage {
+    height: 250px;
+    width: 200px;
+}
+
+.project1div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectnamediv {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.projectcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.projectlinecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.projectline1 {
+    height: 5px;
+    width: 42px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.projectline2 {
+    height: 5px;
+    width: 31px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.projectline3 {
+    height: 5px;
+    width: 20px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.projectline4 {
+    height: 5px;
+    width: 11px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.projectline5 {
+    height: 5px;
+    width: 4px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.educationlinecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.educationline1 {
+    height: 5px;
+    width: 55px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.educationline2 {
+    height: 5px;
+    width: 42px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.educationline3 {
+    height: 5px;
+    width: 32px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.educationline4 {
+    height: 5px;
+    width: 23px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.educationline5 {
+    height: 5px;
+    width: 10px;
+    background-color: rgb(240, 20, 39);
+    border-radius: 30px;
+}
+
+.tenth,
+.twelfth,
+.ug,
+.pg {
+    height: 15px;
+    width: 100%;
+    background-color:#cdcdd9;
+    border-radius: 20px;
+}
+
+.tenthdiv2 {
+    height: 15px;
+    width: 70%;
+    background-color: rgb(78, 204, 24);
+    border-radius: 20px;
+}
+
+.tenthh4tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.educationdiv1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.twelfthdiv2 {
+    height: 15px;
+    width: 50%;
+    background-color: rgb(78, 204, 24);
+    border-radius: 20px;
+}
+
+.ugdiv2 {
+    height: 15px;
+    width: 80%;
+    background-color: rgb(78, 204, 24);
+    border-radius: 20px;
+}
+
+.pgdiv2 {
+    height: 15px;
+    width: 70%;
+    background-color: rgb(78, 204, 24);
+    border-radius: 20px;
+}
+
+.educationcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: unset;
+    gap: 30px;
+    /* width: 100%; */
+}
+
+.educationdiv2 {
+    width: 50%;
+}
+
+.bigline {
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.contentcolor {
+    color: #3dbb2c;
+}
+
+.endbigdiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 124px;
+}
+
+.endbigdiv>div {
+    width: 30%;
+}
+
+.endicon {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 10PX;
+
+}
+
+.endptag {
+    padding: 21px 0px;
+}
+
+.endh1tag {
+    padding: 0px 0px 55px 0px;
+}
+
+.enddiv2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+.enddiv2 div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+}
+.upicon{
+    color: #3dbb2c;
+}
+
+@media only screen and (min-width:600px) and (max-width:900px){
+    .container{
+        width: 100%;
+    }
+} 
